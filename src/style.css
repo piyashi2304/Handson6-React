@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to bottom,rgb(185, 229, 247),rgb(245, 186, 195),white);
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    height: 50px;
+    
+    text-align: center;
+  
+   
+}
+.link{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.tittle{
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+   
+}
+.Addnew{
+  position: absolute;
+  top: 80px;
+  right: 100px;
+  /* bottom: 40px; */
+  font-size: 25px;
+  width: 250px;
+  border-radius: 15px;
+  text-align: center;
+}
+.chart{
+   
+    width: 100%;
+    border-spacing: 20px;
+    background-color:aliceblue;
+    line-height: 30px;
+    border-style: 1px solid #000;
+}
+.displaybox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 60px;
+
+  
+    
+}
+input{
+    width: 400px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid rgb(70, 68, 68);
+    border-radius: 5px;
+}
+input:hover{
+    border: 2px solid blue;
+}
+button{
+    font-size: 30px;
+    border-radius: 15px;
+    width: 200px;
+    text-align: center;
+   
+   
+}
+.button2{
+    background-color: gray;
+    margin-left: 10px;
+}
+@media screen and (min-width:250px) and (max-width:500px){
+    .Addnew {
+        position: static;  
+        top: auto;        
+        right: auto;      
+        width: 100%;       
+        font-size: 18px;   
+    }
+    input {
+        width: 100%;  
+        height: 40px; 
+        font-size: 16px; 
+        padding: 5px; 
+    }
+    button, .button2 {
+        font-size: 20px;
+        width: 100%;   
+        margin-left: 5px; 
+    }
+   
+}
+
+
+
+
+
